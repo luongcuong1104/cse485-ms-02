@@ -53,7 +53,7 @@ $inventoryRank = rankInventory($inventoryValue);
             <!-- Lọc theo Danh mục -->
             <div class="filter-menu" style="margin: 0;">
                 <a href="index.php" class="filter-link <?php echo ($selectedCategoryId === null && $selectedSku === '') ? 'active' : ''; ?>">
-                    Tất cả <span class="filter-count"><?php echo count($products); ?></span>
+                    Tat ca <span class="filter-count"><?php echo count($products); ?></span>
                 </a>
                 <?php foreach ($categories as $cat): ?>
                     <?php $count = countByCategory($products, $cat['id']); ?>
@@ -86,7 +86,7 @@ $inventoryRank = rankInventory($inventoryValue);
                             <th style="width: 25%;">Tên sản phẩm</th>
                             <th style="text-align: right; width: 15%;">Giá bán</th>
                             <th style="text-align: right; width: 8%;">SL</th>
-                            <th style="text-align: center; width: 12%;">Mục tồn</th>
+                            <th style="text-align: center; width: 12%;">Muc ton</th>
                             <th style="text-align: right; width: 10%;">Thành tiền</th>
                         </tr>
                     </thead>
@@ -107,9 +107,9 @@ $inventoryRank = rankInventory($inventoryValue);
                 <table>
                     <thead>
                         <tr>
-                            <th>Danh mục</th>
-                            <th style="text-align: right;">Số sản phẩm</th>
-                            <th style="text-align: right;">Tổng giá trị</th>
+                            <th>Danh muc</th>
+                            <th style="text-align: right;">So SP</th>
+                            <th style="text-align: right;">Tong gia tri</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -151,7 +151,7 @@ $inventoryRank = rankInventory($inventoryValue);
             </div>
             <div class="stat-card">
                 <span class="stat-value" id="inventory_rank" style="color: #0d9488;">
-                    Quy mô kho: <?php echo htmlspecialchars($inventoryRank); ?>
+                    Quy mo kho: <?php echo htmlspecialchars($inventoryRank); ?>
                 </span>
             </div>
         </div>

@@ -20,6 +20,6 @@ $products = [
     ['sku' => 'MS-03', 'name' => 'Xiaomi Silent',  'category_id' => 2, 'price' => 250000,  'qty' => 8],
     ['sku' => 'MN-01', 'name' => 'Dell 24 inch',  'category_id' => 3, 'price' => 3200000,  'qty' => 2],
     ['sku' => 'MN-02', 'name' => 'LG UltraFine',  'category_id' => 3, 'price' => 8500000,  'qty' => 1],
-    ['sku' => 'KB-03', 'name' => 'Leopold FC660M',  'category_id' => 1, 'price' => 2750000	,  'qty' => 2],
+    ['sku' => 'KB-03', 'name' => 'Leopold FC660M',  'category_id' => 1, 'price' => 2750000,  'qty' => 2],
 ];
 ?>
